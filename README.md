@@ -1,5 +1,7 @@
 # 面試用答卷
 
+Go | [Python](https://github.com/Wuchieh/BETpy)
+
 ### 執行
 ```shell
 go run github.com/Wuchieh/BETgo
