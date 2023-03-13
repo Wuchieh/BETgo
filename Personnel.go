@@ -3,17 +3,13 @@ package main
 import "sync"
 
 type Personnel struct {
-	Name    string
-	Working bool
-	Wg      *sync.WaitGroup
+	Name string
 }
 
 // NewPersonnel 輸入名稱 生成員工
 func NewPersonnel(name string) *Personnel {
 	return &Personnel{
-		Name:    name,
-		Working: true,
-		Wg:      new(sync.WaitGroup),
+		Name: name,
 	}
 }
 
